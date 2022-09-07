@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npx hardhat run scripts/deploy.ts --network",
     "upgrade-contract": "npx hardhat run scripts/upgrade.ts --network",
-    "interact": "npx hardhat run scripts/interact.ts --network"
+    "interact": "npx hardhat run scripts/interact.ts --network",
+    "interact-hutang-2": "npx hardhat run scripts/interactHutangV2.ts --network"
   },
   "author": "",
   "license": "ISC",

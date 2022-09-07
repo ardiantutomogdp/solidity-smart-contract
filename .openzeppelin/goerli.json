@@ -265,6 +265,162 @@
           }
         }
       }
+    },
+    "69722f99faa39b9fb8dd54a6eb753c9aa29e80a889797d3cb9d0fe66a21f672e": {
+      "address": "0xcfbCA3C85FAf77eC4a5B16aa3Fc1a3Dba4C9217F",
+      "txHash": "0xeef40cc9a444434fb1a663f36755dcf5a97e747b0a39b0f9a4dc71ff64888227",
+      "layout": {
+        "storage": [
+          {
+            "label": "loanDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(Loan)13_storage)dyn_storage",
+            "contract": "HutangV2",
+            "src": "contracts/HutangV2.sol:14"
+          },
+          {
+            "label": "totalLoans",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "HutangV2",
+            "src": "contracts/HutangV2.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(Loan)13_storage)dyn_storage": {
+            "label": "struct Loan[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Loan)13_storage": {
+            "label": "struct Loan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "creditor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "debtor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "attachmentURI",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "status",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "8bbb043be019c6792bc553556291feb1494e2d8315c4b6734c378258a32316c8": {
+      "address": "0xaf311058EA531C44fAfeE251E11712441EA34a36",
+      "txHash": "0xc9e31ce5111f6d07a27a77fe889f7ef5573b70621b62eaf68c19db481c8c94fd",
+      "layout": {
+        "storage": [
+          {
+            "label": "loanDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(Loan)13_storage)dyn_storage",
+            "contract": "HutangV2",
+            "src": "contracts/HutangV2.sol:14"
+          },
+          {
+            "label": "totalLoans",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "HutangV2",
+            "src": "contracts/HutangV2.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(Loan)13_storage)dyn_storage": {
+            "label": "struct Loan[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Loan)13_storage": {
+            "label": "struct Loan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "creditor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "debtor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "attachmentURI",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "status",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
     }
   }
 }
