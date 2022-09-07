@@ -1,0 +1,4 @@
+{
+  "solidity.defaultCompiler": "remote",
+  "solidity.compileUsingLocalVersion": "/Users/ardiant.utomo/Code/Hutang/soljson-v0.8.16+commit.07a7930e.js"
+}

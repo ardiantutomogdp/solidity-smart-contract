@@ -1,0 +1,270 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x54CdB462012BA7C2B5009DdE2A243Ceb38b1dAF8",
+    "txHash": "0xff8e5a2dba88ade2884ab9b5b054d8607ac2a462bf920499fcd0b7bd5698de0b"
+  },
+  "proxies": [
+    {
+      "address": "0xad7a20e4B6216fDD7291948E0208BFA9C7663b4f",
+      "txHash": "0x5554d8b2646226604ac5fa34eed0fc8feda90b7f2bd1ef4a0c64dbaa84b14535",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0b1B3d1880EE8dC06d9dd1dCEbe29756bD1FC4E9",
+      "txHash": "0xce63cbe86b75581de51ab8fbce0e69a8ef496f8b52fd45d491de1de415938863",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0180BFd605Cb1Ad53f19F4b43608b74BA60202d4",
+      "txHash": "0x6ef6c1fc30304be6a42f427fd61a5965baed70343d7b669d22813ce1ed1efa22",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb563E3E34FA04148FC182D7E2068A98DE48c740f",
+      "txHash": "0x375bf4c13d5d5a967710e9843e1dd56e72362b3e8255c0673de6c0ea4abd9189",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x850f209BFcd313ce7CC5bB8835007886ac0981D3",
+      "txHash": "0xae44c651b115a77ebe69c14e74c43e0ecf8cffc71d2ba5e14f180fa3e11429a5",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "7faedc0a6272be4883ec66ad4b0daff7b6aa798775ce4644fa22ae3acc8d3c90": {
+      "address": "0x4945983f1010a7f8Ac28832c4caBc10c37B9F033",
+      "txHash": "0x90edb3329bd7c1d54f53e5d3b08844955ac8272c42256326eac19a52dc955748",
+      "layout": {
+        "storage": [
+          {
+            "label": "loanDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(Loan)13_storage)dyn_storage",
+            "contract": "HutangV1",
+            "src": "contracts/HutangV1.sol:14"
+          },
+          {
+            "label": "totalLoans",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "HutangV1",
+            "src": "contracts/HutangV1.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(Loan)13_storage)dyn_storage": {
+            "label": "struct Loan[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Loan)13_storage": {
+            "label": "struct Loan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "creditor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "debtor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "attachmentURI",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "status",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "15633211159fccda5c95ad261b6d12599e0fd41905abbcfe8a568516de81b906": {
+      "address": "0x7eE4CE43A7eD36F073ca89Ae1a22CcADd8b6D791",
+      "txHash": "0x05c06c5939cf76c0f0e9cd2779427e5bcce9c614f1c86fff3c78df6e0de3059a",
+      "layout": {
+        "storage": [
+          {
+            "label": "loanDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(Loan)13_storage)dyn_storage",
+            "contract": "HutangV1",
+            "src": "contracts/HutangV1.sol:14"
+          },
+          {
+            "label": "totalLoans",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "HutangV1",
+            "src": "contracts/HutangV1.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(Loan)13_storage)dyn_storage": {
+            "label": "struct Loan[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Loan)13_storage": {
+            "label": "struct Loan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "creditor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "debtor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "attachmentURI",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "status",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "af3381145538b4f767e80b7ae10eeabeb71108198b9f5cfc42da4ebd702460a2": {
+      "address": "0x1A9f47E2e5572f8690370193C15304d3F57D7AF7",
+      "txHash": "0xd3f2cdac30a9b572961237ab4b121dcbc243a3df40b2ef11bb5db1062d14e4eb",
+      "layout": {
+        "storage": [
+          {
+            "label": "loanDatas",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_array(t_struct(Loan)13_storage)dyn_storage",
+            "contract": "HutangV1",
+            "src": "contracts/HutangV1.sol:14"
+          },
+          {
+            "label": "totalLoans",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "HutangV1",
+            "src": "contracts/HutangV1.sol:15"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_struct(Loan)13_storage)dyn_storage": {
+            "label": "struct Loan[]",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Loan)13_storage": {
+            "label": "struct Loan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "creditor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "debtor",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "attachmentURI",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "status",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hutang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run scripts/deploy.ts --network",
+    "upgrade-contract": "npx hardhat run scripts/upgrade.ts --network",
+    "interact": "npx hardhat run scripts/interact.ts --network"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.11.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "@openzeppelin/upgrades-core": "^1.18.0",
+    "@types/node": "*",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.0"
+  }
+}
